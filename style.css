@@ -1,44 +1,143 @@
-
 body {
     margin: 0;
     padding: 0;
-    font-family: 'Lato', sans-serif;
-    background-color: #F5F5F5;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    font-family: 'Lato', 'Montserrat', Arial, sans-serif;
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    color: #222;
     min-height: 100vh;
-    color: #333;
+}
+
+.header {
+    background: rgba(255,255,255,0.95);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+    padding-top: 40px;
+    padding-bottom: 20px;
 }
 
 .container {
+    max-width: 600px;
+    margin: 0 auto;
     text-align: center;
-    padding: 20px;
+    padding: 0 20px;
 }
 
 .logo {
-    width: 150px;
+    width: 120px;
     height: auto;
-    margin-bottom: 20px;
+    margin-bottom: 18px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.07);
 }
 
 .company-name-es {
-    font-size: 2.5em;
+    font-family: 'Montserrat', 'Lato', Arial, sans-serif;
+    font-size: 2.3em;
     font-weight: 700;
-    margin-bottom: 10px;
+    margin-bottom: 8px;
+    letter-spacing: 1px;
 }
 
 .company-name-zh {
-    font-family: 'Noto Sans SC', sans-serif;
+    font-family: 'Noto Serif SC', serif;
     font-size: 2em;
-    font-weight: 400;
+    font-weight: 700;
+    margin-bottom: 6px;
+    color: #1a237e;
 }
 
 .pinyin {
-    font-family: 'Lato', sans-serif;
-    font-size: 0.8em;
-    vertical-align: middle;
-    margin-left: 5px;
+    font-family: 'Lato', 'Montserrat', Arial, sans-serif;
+    font-size: 0.9em;
+    color: #555;
+    margin-left: 6px;
+}
+
+.main-content {
+    background: rgba(255,255,255,0.97);
+    border-radius: 18px;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.07);
+    margin: 30px auto 0 auto;
+    padding: 32px 24px 24px 24px;
+    max-width: 600px;
+}
+
+.description h2 {
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-size: 1.4em;
+    font-weight: 700;
+    margin-bottom: 12px;
+    color: #0d47a1;
+}
+
+.description p {
+    font-size: 1.1em;
+    line-height: 1.7;
+    margin-bottom: 0;
+}
+
+.cta-section {
+    margin-top: 28px;
+}
+
+.cta-button {
+    display: inline-block;
+    background: linear-gradient(90deg, #1976d2 0%, #64b5f6 100%);
+    color: #fff;
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-weight: 700;
+    font-size: 1.1em;
+    padding: 14px 36px;
+    border-radius: 30px;
+    text-decoration: none;
+    box-shadow: 0 2px 8px rgba(25, 118, 210, 0.12);
+    transition: background 0.3s, transform 0.2s;
+}
+
+.cta-button:hover, .cta-button:focus {
+    background: linear-gradient(90deg, #1565c0 0%, #42a5f5 100%);
+    transform: translateY(-2px) scale(1.03);
+    outline: none;
+}
+
+.footer {
+    background: rgba(255,255,255,0.92);
+    margin-top: 40px;
+    padding: 18px 0 10px 0;
+    font-size: 0.98em;
+    color: #333;
+    border-top: 1px solid #e0e0e0;
+}
+
+.footer a {
+    color: #1976d2;
+    text-decoration: underline;
+}
+
+.social-links {
+    margin: 10px 0;
+}
+
+@media (max-width: 600px) {
+    .container, .main-content {
+        max-width: 98vw;
+        padding: 0 6vw;
+    }
+    .main-content {
+        padding: 20px 6vw 16px 6vw;
+    }
+    .company-name-es {
+        font-size: 1.4em;
+    }
+    .company-name-zh {
+        font-size: 1.1em;
+    }
+    .logo {
+        width: 80px;
+    }
+    .cta-button {
+        font-size: 1em;
+        padding: 12px 18px;
+    }
 }
 
 
