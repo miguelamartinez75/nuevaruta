@@ -1,0 +1,44 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    background-color: #F5F5F5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: #333;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+}
+
+.logo {
+    width: 150px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.company-name-es {
+    font-size: 2.5em;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.company-name-zh {
+    font-family: 'Noto Sans SC', sans-serif;
+    font-size: 2em;
+    font-weight: 400;
+}
+
+.pinyin {
+    font-family: 'Lato', sans-serif;
+    font-size: 0.8em;
+    vertical-align: middle;
+    margin-left: 5px;
+}
+
+
