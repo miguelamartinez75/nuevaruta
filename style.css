@@ -46,8 +46,8 @@ body {
 }
 
 .pinyin {
-    font-family: 'Lato', 'Montserrat', Arial, sans-serif;
-    font-size: 0.9em;
+    font-family: 'Noto Sans SC', Arial, sans-serif;
+    font-size: 0.6em;
     color: #555;
     margin-left: 6px;
 }
