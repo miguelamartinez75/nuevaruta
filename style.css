@@ -38,9 +38,9 @@ body {
 }
 
 .company-name-zh {
-    font-family: 'Noto Serif SC', serif;
+    font-family: 'Ma Shan Zheng', 'Noto Serif SC', serif;
     font-size: 2em;
-    font-weight: 700;
+    font-weight: 900;
     margin-bottom: 6px;
     color: #1a237e;
 }
